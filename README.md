@@ -8,8 +8,8 @@ The game, when released, will be available on itch.io.  A release is expected by
 
 ## Support
 
-For support or to contact the developers, [email us] (reallynotawalrus@gmail.com)
+For support or to contact the developers, [email us](reallynotawalrus@gmail.com)
 
 ## Development team
 
-Project Checkmate is developed solely by [Neil Ipsen] (https://www.github.com/Neil-Ipsen).
+Project Checkmate is developed solely by [Neil Ipsen](https://www.github.com/Neil-Ipsen).
