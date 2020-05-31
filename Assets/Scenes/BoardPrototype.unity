@@ -2166,7 +2166,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d449670c41b09c84494d483a8898a463, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  redKings: []
+  redKings:
+  - {fileID: 2112399250}
+  - {fileID: 99502432}
+  - {fileID: 2003761726}
+  - {fileID: 1825834618}
+  - {fileID: 1824928761}
+  - {fileID: 1878455679}
+  - {fileID: 1840360389}
+  - {fileID: 93844309}
+  - {fileID: 1167549132}
+  - {fileID: 532937843}
+  - {fileID: 800065263}
+  - {fileID: 1390185632}
 --- !u!1 &648260390
 GameObject:
   m_ObjectHideFlags: 0
@@ -3034,6 +3046,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1285830511}
+  - component: {fileID: 1285830512}
   m_Layer: 0
   m_Name: BlackKings
   m_TagString: Untagged
@@ -3067,6 +3080,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1285830512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285830510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84239f267f621e649869c37a2c53d9b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blackKings:
+  - {fileID: 146386150}
+  - {fileID: 638461153}
+  - {fileID: 1674147630}
+  - {fileID: 1718976813}
+  - {fileID: 239555615}
+  - {fileID: 1496467219}
+  - {fileID: 1070939694}
+  - {fileID: 344958150}
+  - {fileID: 360879408}
+  - {fileID: 1784243741}
+  - {fileID: 2058192792}
+  - {fileID: 375659147}
 --- !u!1 &1339134270
 GameObject:
   m_ObjectHideFlags: 0
@@ -3157,6 +3195,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1353390185}
+  - component: {fileID: 1353390186}
   m_Layer: 0
   m_Name: Waypoints
   m_TagString: Untagged
@@ -3210,6 +3249,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1353390186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353390184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0212ab916912af74db7a7002b7f381d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 1888735037}
+  - {fileID: 1948799302}
+  - {fileID: 2144820314}
+  - {fileID: 356676269}
+  - {fileID: 1532991885}
+  - {fileID: 907366265}
+  - {fileID: 1670035694}
+  - {fileID: 116150701}
+  - {fileID: 1619071797}
+  - {fileID: 1550318161}
+  - {fileID: 2078045041}
+  - {fileID: 163418906}
+  - {fileID: 105337713}
+  - {fileID: 794167245}
+  - {fileID: 1475690795}
+  - {fileID: 780893739}
+  - {fileID: 509137351}
+  - {fileID: 335837513}
+  - {fileID: 1690343542}
+  - {fileID: 648260391}
+  - {fileID: 1188474183}
+  - {fileID: 1774416940}
+  - {fileID: 1399108251}
+  - {fileID: 54826866}
+  - {fileID: 1016675047}
+  - {fileID: 621319756}
+  - {fileID: 1397553310}
+  - {fileID: 1715336789}
+  - {fileID: 744735387}
+  - {fileID: 629398054}
+  - {fileID: 2215709}
+  - {fileID: 1989251508}
 --- !u!1 &1390185631
 GameObject:
   m_ObjectHideFlags: 0
@@ -4986,6 +5070,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1995689290}
+  - component: {fileID: 1995689291}
   m_Layer: 0
   m_Name: BlackPieces
   m_TagString: Untagged
@@ -5019,6 +5104,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1995689291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995689289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60b50daae2c4d7a429440db2a42684b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blackPieces:
+  - {fileID: 1459220727}
+  - {fileID: 888869546}
+  - {fileID: 1531069486}
+  - {fileID: 606796740}
+  - {fileID: 1660516648}
+  - {fileID: 1404901790}
+  - {fileID: 316281855}
+  - {fileID: 1280714630}
+  - {fileID: 1168495796}
+  - {fileID: 620792761}
+  - {fileID: 982469515}
+  - {fileID: 488231459}
 --- !u!1 &2003761725
 GameObject:
   m_ObjectHideFlags: 0
