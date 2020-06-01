@@ -10,7 +10,9 @@ public class BlackKings : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        foreach(Transform items in blackKings) {
+            
+        }
     }
 
     // Update is called once per frame
