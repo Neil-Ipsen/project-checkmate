@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public PieceObject[,] pieceObject = new PieceObject[8,8];
+    public PieceObject[,] pieceObject = new PieceObject[26, 26];
     public GameObject redPiecePrefab;
     public GameObject blackPiecePrefab;
 
@@ -12,12 +12,13 @@ public class Movement : MonoBehaviour
         startingOrientation();
     }
 
-    private Vector3 pieceOffset = new Vector3(-10.5f, -10.5f);
+    private Vector3 pieceOffset = new Vector3(-11.55f, -11.55f);
 
     private void startingOrientation() {
-        for(int y=0; y < 3; y++) {
+        for(int y=0; y < 9.9; y++) {
+            bool oddRow = (y % 2 == 0);
             for(int x = 0; x < 8; x += 2) {
-                renderPiece(x, y);
+                renderPiece((oddRow) ? x:x+1, y);
             }
         }
     }
